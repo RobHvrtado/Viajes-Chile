@@ -34,3 +34,18 @@ font-weight: 400;
 color: #f8f2f2;
 font-size: 3.25rem;
 }
+
+.carousel-indicators {
+bottom: -50px;
+}
+
+.carousel-indicators li {
+background-color: #b2babb31;
+width: 14px;
+height: 14px;
+border-radius: 50%;
+}
+
+.carousel-indicators li.active {
+background-color: #bbbec0;
+}
